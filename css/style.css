@@ -1,0 +1,340 @@
+html {
+  font-size: 100px;
+}
+
+body {
+  font-size: 16px;
+  font-family: "苹方";
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px;
+  }
+}
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 80px;
+  }
+}
+@media screen and (min-width: 765px) {
+  html {
+    font-size: 102px;
+  }
+}
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 106.7px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 136.5px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  html {
+    font-size: 170.7px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+img {
+  border: none;
+}
+.header{
+    height: .9rem;
+    /*width:7.5rem;*/
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #1f3e69;
+    padding:0 .24rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+    z-index: 100;
+    background: url(../img/首页_02.jpg) no-repeat;
+    background-size: 100% .9rem;
+}
+.header .header_left{
+    width: .7rem;
+    height: .66rem;
+    position: absolute;
+    left: .24rem;
+    top: .07rem;
+}
+.header .header_left .hd_La{
+    display: block;
+    width: .56rem;
+    height: 100%;
+    background: url(../img/guiji_03.jpg) no-repeat;
+    background-size:.7rem .66rem;
+}
+.header .header_left .hd_Lb{
+    display: block;
+    width: .56rem;
+    height: 100%;
+    background: url(../img/北斗盒子-未连接_03.jpg) no-repeat;
+    background-size:.56rem .9rem;
+}
+.header .header_weixin{
+    font-size: .36rem;
+    color: #fff;
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: .9rem;
+}
+.header .header_right{
+    width: .5rem;
+    height: .5rem;
+    position: absolute;
+    right: .24rem;
+    top: .17rem;
+}
+.header .header_right_wenzi{
+    width: .5rem;
+    height: .5rem;
+    position: absolute;
+    right: .24rem;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.header .header_right_wenzi a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: url(../img/y_h.png)no-repeat center;
+    background-size:contain;
+}
+.header .header_right .hd_Ra{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../images/首页_06.jpg) no-repeat;
+    background-size:.5rem .5rem;
+}
+.header .header_sousuo{
+    width: 5.58rem;
+    height: .56rem;
+    margin-left: .76rem;
+    margin-top: .16rem;
+    outline: none;
+    border: 0;
+    background: url(../img/sousuo_03.jpg) no-repeat left top;
+    background-size: 5.58rem .56rem;
+    border-radius: 50px;
+    border: 1px solid rgba(31, 86, 165, 0.9);
+    padding-left: .5rem;
+    padding-right: .62rem;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /*width: 7.5rem;*/
+    width: 100%;
+    height: 1rem;
+    background: #2d2d2c;
+}
+.footer .footerLeft{
+    width: 2.95rem;
+    height: 100%;
+    float: left;
+}
+.footerLeft_a{
+    width: 1rem;
+    height: 1rem;
+    margin-left: .35rem;
+    float: left;
+}
+.footerLeft_a .fLyuan{
+    height: .7rem;
+    width: .7rem;
+    margin: .15rem auto;
+    background: #3c3c3c;
+    border-radius: 50%;
+    position: relative;
+}
+.footerLeft_a .fLyuanXin{
+    height: .55rem;
+    width: .55rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #5b5b5b;
+    border-radius: 50%;
+}
+.fLyuanXin a{
+    height: .55rem;
+    width: .55rem;
+    display: block;
+}
+.footer .footerRight{
+    width: 2.95rem;
+    height: 100%;
+    float: right;
+}
+.footerLeft_b{
+    width: 1rem;
+    height: 1rem;
+    margin-right: .35rem;
+    float: right;
+}
+.footerLeft_b .fLyuan{
+    height: .7rem;
+    width: .7rem;
+    margin: .15rem auto;
+    background: #3c3c3c;
+    border-radius: 50%;
+    position: relative;
+}
+.footerLeft_b .fLyuanXin{
+    height: .55rem;
+    width: .55rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #5b5b5b;
+    border-radius: 50%;
+    
+}
+.yuanxin_a{
+    background-image: url(../img/首页1.png);
+    background-repeat: no-repeat;
+    background-size: .32rem;
+    background-position: center center; 
+}
+.yuanxin_b{
+    background-image: url(../img/卫星.png);
+    background-repeat: no-repeat;
+    background-size: .32rem;
+    background-position: center center; 
+}
+.yuanxin_c{
+    background-image: url(../img/用户.png);
+    background-repeat: no-repeat;
+    background-size: .32rem;
+    background-position: center center; 
+}
+.yuanxin_d{
+    background-image: url(../img/宝典.png);
+    background-repeat: no-repeat;
+    background-size: .32rem;
+    background-position: center center; 
+}
+.yuanxin_aa{
+    background-image: url(../img/首页11.png);
+    background-repeat: no-repeat;
+    background-size: .32rem;
+    background-position: center center; 
+}
+.yuanxin_bb{
+    background-image: url(../img/卫星1.png);
+    background-repeat: no-repeat;
+    background-size: .32rem;
+    background-position: center center; 
+}
+.yuanxin_cc{
+    background-image: url(../img/用户1.png);
+    background-repeat: no-repeat;
+    background-size: .32rem;
+    background-position: center center; 
+}
+.yuanxin_dd{
+    background-image: url(../img/宝典2.png);
+    background-repeat: no-repeat;
+    background-size: .32rem;
+    background-position: center center; 
+}
+.footerMiddle{
+    width: 1.6rem;
+    height: 1rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+}
+.footerMiddle_a{
+    width: 1.35rem;
+    height: 1.2rem;
+    background: url(../img/首页_15.png);
+    background-repeat: no-repeat;
+    background-size: 1.35rem 1.2rem;
+    background-position: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -0.41rem;
+    margin:auto;
+}
+
+
+/*字体*/
+.font_cr{
+    color: blue;
+     background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(50, 207, 254, 1)), to(rgba(27, 112, 207, 1)));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

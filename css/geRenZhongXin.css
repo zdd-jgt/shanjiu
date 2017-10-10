@@ -1,0 +1,375 @@
+.geRen_body{
+    width: 100%;
+    height: 13.35rem;
+    position: relative;
+}
+.geRen_body .banner{
+    width: 100%;
+    height: 2.37rem;
+    background: url(../img/0_55.png) no-repeat center;
+    background-size: 7.5rem 2.37rem;
+}
+.geRen_body .geRen_body_bottom{
+    width: 100%;
+    height: auto;
+    border-radius: .15rem .15rem 0 0;
+    background: #fefefe;
+    padding-top: .25rem;
+    /*padding-bottom: 1.5rem;*/
+    margin-top: -0.1rem;
+}
+.geRen_body_bottom .geRen_bottom_nei{
+    width: 100%;
+    height: auto;
+    padding-top: 1.59rem;
+    background: #f7f7f7;
+    padding-bottom: 1.5rem;
+}
+.geRen_bottom_nei .touxiang{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+    width: 2.80rem;
+    height: 1.50rem;
+    background: url(../img/0_03.png) no-repeat center;
+    background-size: 2.80rem 1.5rem;
+}
+.touxiang .touxiang_tu{
+    width: 2.22rem;
+    height: 2.22rem;
+    border: .03rem solid #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: .3rem;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background: url(../img/0_33.png) no-repeat center;
+    background-size: 2.22rem 2.22rem;
+}
+.touxiang_tu a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.geRen_bottom_nei .name{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.geRen_bottom_nei .name_tu{
+    width: .88rem;
+    height: .16rem;
+    margin: 0 auto;
+    background: url(../img/0_06.png) no-repeat center;
+    background-size: .88rem .16rem;
+}
+.geRen_bottom_nei .name_shuoMing{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: .24rem;
+    color: #878787;
+}
+.geRen_bottom_nei .name_xinXi{
+    width: 7.2rem;
+    height: 2.9rem;
+    margin: 0 auto;
+    background: url(../img/00_03.png) no-repeat center;
+    background-size: 7.2rem 2.9rem;
+    padding-top: .2rem;
+}
+.name_xinXi .kapian_xinXi{
+    width: 50%;
+    height: 50%;
+    float: left;
+    padding-left: .5rem;
+    padding-top: .3rem;
+}
+.kapian_xinXi .xinXi_img{
+    
+    float: left;
+}
+.kapian_xinXi .xinXi_img_a{
+    height: .52rem;
+    width: .52rem;
+    margin-top: .05rem;
+    float: left;
+    background: url(../img/0_15.png) no-repeat center;
+    background-size: .52rem .52rem;
+}
+.kapian_xinXi .xinXi_img_b{
+    height: .52rem;
+    width: .52rem;
+    margin-top: .05rem;
+    float: left;
+    background: url(../img/0_18.png) no-repeat center;
+    background-size: .52rem .52rem;
+}
+.kapian_xinXi .xinXi_img_c{
+    height: .48rem;
+    width: .58rem;
+    margin-top: .09rem;
+    float: left;
+    background: url(../img/0_26.png) no-repeat center;
+    background-size: .48rem .58rem;
+}
+.kapian_xinXi .xinXi_img_d{
+    height: .48rem;
+    width: .56rem;
+    margin-top: .08rem;
+    float: left;
+    background: url(../img/0_28.png) no-repeat center;
+    background-size: .48rem .56rem;
+}
+.kapian_xinXi .xinXi_box{
+    margin-left: .1rem;
+    float: left;
+}
+.xinXi_box .xinXi_box_a{
+    width: 2.22rem;
+    font-family: [AdobeHeitiStd];
+    font-size: .16rem;
+    color: #acacac;
+}
+.xinXi_box .xinXi_box_b{
+    width: 2.22rem;
+    font-family: [San Francisco Display];
+    font-size: .12rem;
+    height: .02rem;
+    line-height: .03rem;
+    padding-bottom: .1rem;
+    color: #acacac;
+}
+.xinXi_box .xinXi_box_c{
+    width: 2.22rem;
+    font-family: AdobeHeitiStd;
+    font-size: .22rem;
+    color: #979797;
+}
+
+
+/**/
+.geRen_bottom_nei .name_nav{
+    width: 7.05rem;
+    height: auto;
+    margin: 0 auto;
+    /*background: url(../img/个人1_03.png) no-repeat center bottom;
+    background-size: 7.05rem .03rem;*/
+    padding-top: .2rem;
+    overflow: hidden;
+}
+.geRen_bottom_nei .name_nav_first{
+    padding-top: .2rem;
+}
+.name_nav .nav_biaoTi{
+    width: 7.05rem;
+    height: auto;
+    margin: 0 auto;
+    background: url(../img/个人1_03.png) no-repeat center bottom;
+    background-size: 7.05rem .06rem;
+    padding-top: .18rem;
+    padding-bottom: .18rem;
+    padding-left: .2rem;
+    color: #979797;
+    font-size: .26rem;
+    overflow: hidden;
+}
+.nav_biaoTi .biaTi_left{
+    float: left;
+    padding-left: .39rem;
+    background: url(../img/0_38.png) no-repeat left center;
+    background-size: .34rem .34rem;
+}
+.nav_biaoTi .biaTi_a{
+    background: url(../img/0_40.png) no-repeat left center;
+    background-size: .34rem .36rem;
+}
+.nav_biaoTi .biaTi_b{
+    background: url(../img/0_44.png) no-repeat left center;
+    background-size: .34rem .34rem;
+}
+.nav_biaoTi .biaTi_c{
+    background: url(../img/0_47.png) no-repeat left center;
+    background-size: .34rem .34rem;
+}
+.nav_biaoTi .biaTi_right{
+    width: .22rem;
+    height: .15rem;
+    float: right;
+    background: url(../img/0_36.png) no-repeat left center;
+    background-size: .22rem .15rem;
+    margin-top: .1rem;
+    margin-right: .2rem;
+}
+.biaTi_left span{
+    font-size: .16rem;
+    color: #bababa;
+    font-family: San Francisco Display;
+}
+
+.name_nav .nav_xuanXiang{
+    /*width: 6.05rem;*/
+    /*height: auto;*/
+    margin-left: .2rem;
+    /*padding-top: .18rem;*/
+    /*padding-bottom: .18rem;*/
+    padding-left: .2rem;
+    color: #979797;
+    font-size: .26rem;
+    overflow: hidden;
+}
+.name_nav .nav_height{
+    height: 0;
+    padding: 0;
+}
+.name_nav .xuanXiang_height{
+    height: auto;
+}
+.nav_xuanXiang .xuanXiang_a{
+    width: 6.05rem;
+    height: auto;
+    background: url(../img/个人1_03.png) no-repeat center bottom;
+    background-size: 6.05rem .06rem;
+    padding-top: .18rem;
+    padding-bottom: .18rem;
+    padding-left: .2rem;
+    padding-right: .2rem;
+    color: #979797;
+    font-size: .22rem;
+}
+.xuanXiang_a input{
+    width: 3rem;
+    height: .4rem;
+    border: none;
+    outline: none;
+    /*line-height: .98rem;*/
+    color: #979797;
+    font-size: .22rem;
+    padding-left: .2rem;
+    background: #f7f7f7;
+   
+}
+.xuanXiang_a .lianjie_tianJia{
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #a6a6a6;
+    font-size: .22rem;
+}
+.lianjie_tianJia span{
+    line-height: .16rem;
+    font-size: .32rem;
+}
+.xuanXiang_a .huJiu{
+    width: .78rem;
+    height: .3rem;
+    border-radius: .3rem;
+    float: right;
+    border: 1px solid #14dc1d;
+    display: block;
+    text-align: center;
+    line-height: .28rem;
+    color: #14dc1d;
+    font-family: AdobeHeitiStd;
+    font-size: .18rem;
+}
+.xuanXiang_a .xuanXiang_help{
+    font-size: .16rem;
+    font-family: San Francisco Display;
+}
+.xuanXiang_a .chakan{
+    width: .78rem;
+    height: .3rem;
+    border-radius: .3rem;
+    float: right;
+    border: 1px solid #f82818;
+    display: block;
+    text-align: center;
+    line-height: .28rem;
+    color: #f82818;
+    font-family: AdobeHeitiStd;
+    font-size: .18rem;
+}
+.zheZhao{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+    background: rgba(0,0,0,0.7);
+}
+.zheZhao .zheZhao_xinXi{
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+    background: #FFFFFF;
+}
+.zheZhao_GuiJi1{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: rgba(0,0,0,0.7);
+    z-index: 100;
+    display: none;
+}
+.shanChu{
+    width: 6.8rem;
+    height:2.5rem;
+    position: absolute;
+    bottom: .5rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #FFFFFF;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    padding-top: .5rem;
+}
+.shanChu .shanChu_xuanxiang{
+    width: 100%;
+    height:.75rem;
+    margin: .5rem auto;
+    line-height: .75rem;
+    text-align: center;
+}
+.shanChu_xuanxiang .shanChu_left{
+    width: 3rem;
+    height:.75rem;
+    float: left;
+    margin-left: .3rem;
+    border: 1px solid #cbcbcb;
+    border-radius: 20px;
+    background: #f1f1f1;
+}
+.shanChu_xuanxiang .shanChu_right{
+    width: 3rem;
+    height:.75rem;
+    float: right;
+    margin-right: .3rem;
+    border: 1px solid #cbcbcb;
+    border-radius: 20px;
+    background: #f1f1f1;
+}
+.shanChu_right .shanChu_cr{
+    color: red;
+}
+
+
+
+

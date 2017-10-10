@@ -1,0 +1,275 @@
+/*宝典页面css*/
+.baoDian_body{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    padding-bottom: 1.3rem;
+}
+.baoDian_body .baoDian_body_nei{
+    width:7rem;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*//选项卡*/
+.baoDian_body_nei .baoDian_list{
+    width: 7rem;
+    padding-left: .26rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    /*padding-right: .26rem;*/
+    overflow: hidden;
+    position: fixed;
+    top: .9rem;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 10;
+    background: #FFFFFF;
+}
+.baoDianList_a{
+    width: 2rem;
+    height: .5rem;
+    float: left;
+    margin-right:.24rem ;
+    background: #626161;
+    border-radius: 20px;
+    border: 1px solid #FFFFFF;
+    /*box-shadow: 0 0 5px #cecdcd;*/
+    color: #FFFFFF;
+    text-align: center;
+    line-height: .45rem;
+    font-size: .24rem;
+}
+.baoDianList_a a{
+    color: #FFFFFF;
+}
+.baoDianList_b{
+    background: #fd2918;
+}
+/*yemian*/
+.yemian_box{
+    /*width: 22rem;*/
+    /*height: 10.05rem;*/
+    /*margin-top: 1.2rem;*/
+    padding-top: .8rem;
+    overflow: hidden;
+}
+.baoDian_yemian{
+    width: 7rem;
+    height: auto;
+
+
+}
+.yemian_kapian_da {
+    width: 100%;
+    overflow: hidden;
+}
+.yemian_kapian_da .yemian_kaPian{
+    width: 33.3%;
+    height: 3.35rem;
+    float: left;
+}
+.yemian_kapian_da .yemian_kaPian .yemain_KaPian_tu{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.yemian_kaPian_1{
+    background: url(../img/宝典_05.png) no-repeat center;
+    background-size: 2.2rem 3.35rem;
+}
+.yemian_kaPian_2{
+    background: url(../img/宝典_06.png) no-repeat center;
+    background-size: 2.2rem 3.35rem;
+}
+.yemian_kaPian_3{
+    background: url(../img/宝典_07.png) no-repeat center;
+    background-size: 2.2rem 3.35rem;
+}
+.yemian_kaPian_4{
+    background: url(../img/宝典_09.png) no-repeat center;
+    background-size: 2.2rem 3.35rem;
+}
+.yemian_kaPian_5{
+    background: url(../img/宝典_10.png) no-repeat center;
+    background-size: 2.2rem 3.35rem;
+}
+.yemian_kaPian_6{
+    background: url(../img/宝典_11.png) no-repeat center;
+    background-size: 2.2rem 3.35rem;
+}
+.yemian_kaPian_7{
+    background: url(../img/宝典_12.png) no-repeat center;
+    background-size: 2.2rem 3.35rem;
+}
+.yemian_kaPian_8{
+    background: url(../img/宝典_13.png) no-repeat center;
+    background-size: 2.2rem 3.35rem;
+}
+.yemian_kaPian_9{
+    background: url(../img/宝典_14.png) no-repeat center;
+    background-size: 2.2rem 3.35rem;
+}
+/*.z_index_color_a{
+    background: red;
+    height: 300px;
+}*/
+.z_index_color_b{
+    /*width:6rem;
+    height: auto;
+    margin: 0 auto;*/
+   height: auto;
+   overflow: auto;
+}
+.bDTM_body{
+    height: auto;
+    width: 100%;
+    overflow-y:auto;
+}
+.baoDian_ye_bottom_ye{
+    width: 6.66rem;
+    height: auto;
+    margin: 0 auto;
+    /*padding-top: .21rem;*/
+}
+.baoDian_ye_bottom_ye .tsYBY_a{
+    width: 100%;
+    font-size: .24rem;
+    font-family: Vrinda;
+    color: #4d4d4d;
+    text-transform:Uppercase;
+    font-style: italic;
+    /*San Francisco Display*/
+}
+.baoDian_ye_bottom_ye .tsYBY_b{
+    width: .58rem;
+    height: .03rem;
+    background: url(../img/宝典-急救_04_03.jpg) no-repeat center;
+    background-size: .58rem .03rem;
+    margin-top: .03rem;
+    margin-bottom: .03rem;
+}
+.baoDian_ye_bottom_ye .tsYBY_c{
+    width: 100%;
+    font-size: .26rem;
+    color: #ff3939;
+    text-transform:Uppercase;
+    font-style: italic;
+}
+.baoDian_ye_bottom_ye p{
+    width: 6.45rem;
+    margin: 0 auto;
+    font-size: .24rem;
+    color: #8a8a8a;
+    padding-top: .13rem;
+    margin-left: .16rem;
+    padding-right: .1rem;
+    padding-bottom: .02rem;
+    border-bottom: 1px solid #dcdcdc;
+    /*padding-bottom: .2rem;*/
+}
+.baoDian_ye_bottom_ye p>span{
+    display: block;
+    width: 6.45rem;
+    margin: 0 auto;
+    font-size: .24rem;
+    color: #8a8a8a;
+    padding-top: .13rem;
+    padding-left: .16rem;
+    padding-right: .1rem;
+    padding-bottom: .02rem;
+    border-top: 1px solid #dcdcdc;
+    /*padding-bottom: .2rem;*/
+}
+.baoDian_ye_bottom_ye p:first-child{
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    /*padding-bottom: .2rem;*/
+}
+.baoDian_ye_bottom_ye .changYongWaiYong{
+    
+}
+.z_index_color_c{
+    
+    /*height: 300px;*/
+}
+.z_index_color_c .baoDian_ziXun{
+    width: 6.8rem;
+    height: 2.6rem;
+    margin: 0 auto;
+    box-shadow: 0 0 8px #ebebeb;
+    border-radius: 5px;
+    margin-bottom: .2rem;
+    overflow: hidden;
+}
+.baoDian_ziXun .baoDian_ziXun_nei{
+    width: 6.8rem;
+    height: 2.6rem;
+    display: block;
+    padding-left: 2.9rem;
+    background: url(../img/0_33.png) no-repeat center left;
+    background-size: 2.6rem 2.6rem;
+}
+.baoDian_ziXun .baoDian_ziXun_nei1{
+    width: 6.8rem;
+    height: 2.6rem;
+    display: block;
+    padding-right: 2.9rem;
+    background: url(../img/0_33.png) no-repeat center right;
+    background-size: 2.6rem 2.6rem;
+    padding-left: .3rem;
+}
+
+.baoDian_ziXun_nei .baoDian_ziXun_nei_right{
+    width: 100%;
+    height: 2.6rem;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+.baoDian_ziXun_nei .baoDian_ziXun_nei_right1{
+    width: 100%;
+    height: 2.6rem;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+.baoDian_ziXun_nei_right1 h3{
+    width: 100%;
+    font-size: .26rem;
+    color: #515151;
+    padding-top: .3rem;
+    padding-bottom: .14rem;
+}
+.baoDian_ziXun_nei_right1 p{
+    width: 100%;
+    font-size: .24rem;
+    color: #848484;
+    /*padding-left: .3rem;*/
+    margin-bottom: .1rem;
+}
+.baoDian_ziXun_nei_right1 span{
+    width: 100%;
+    font-size: .22rem;
+    color: #5f5f5f;
+}
+.baoDian_ziXun_nei_right h3{
+    width: 100%;
+    font-size: .26rem;
+    color: #515151;
+    padding-top: .3rem;
+    padding-bottom: .14rem;
+}
+.baoDian_ziXun_nei_right p{
+    width: 100%;
+    font-size: .24rem;
+    color: #848484;
+    padding-right: .3rem;
+    margin-bottom: .1rem;
+}
+.baoDian_ziXun_nei_right span{
+    width: 100%;
+    font-size: .22rem;
+    color: #5f5f5f;
+}
+
+

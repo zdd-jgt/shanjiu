@@ -1,0 +1,86 @@
+/*//烫伤*/
+.body_tangShang{
+    width: 6.15rem;
+    height: 12.4rem;
+    margin-top: .9rem;
+    padding-bottom: 1rem;
+    /*background: red;*/
+    margin: 0 auto;
+}
+.body_tangShang .body_tangShang_ye{
+    position: absolute;
+    left: 0;
+    top: 1.55rem;
+    width: 100%;
+    height: 9.5rem;
+    background: #fff;
+    box-shadow: 0 3px 5px #e4e3e3;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.ye_zIndex{
+    z-index: 111111;
+}
+.body_tangShang_ye .body_tangShang_ye_top{
+    width: 100%;
+    height: .9rem;
+    background: #fd2918;
+    line-height: .9rem;
+    color: #fff;
+    font-size: .22rem;
+    padding-left: .4rem;
+}
+.body_tangShang_ye_top span{
+    width: 100%;
+    height: .9rem;
+    background: #fd2918;
+    line-height: .9rem;
+    font-size: .34rem;
+    font-weight: bold;
+}
+.body_tangShang_ye_bottom{
+    width: 100%;
+    height: auto;
+    padding-top: .1rem;
+}
+.body_tangShang_ye_bottom .tangshang_ye_bottom_ye{
+    width: 5.6rem;
+    height: auto;
+    margin: 0 auto;
+    padding-top: .21rem;
+}
+.tangshang_ye_bottom_ye .tsYBY_a{
+    width: 100%;
+    font-size: .24rem;
+    font-family: Vrinda;
+    color: #4d4d4d;
+    text-transform:Uppercase;
+    font-style: italic;
+    /*San Francisco Display*/
+}
+.tangshang_ye_bottom_ye .tsYBY_b{
+    width: .58rem;
+    height: .03rem;
+    background: url(../img/宝典-急救_04_03.jpg) no-repeat center;
+    background-size: .58rem .03rem;
+    margin-top: .03rem;
+    margin-bottom: .03rem;
+}
+.tangshang_ye_bottom_ye .tsYBY_c{
+    width: 100%;
+    font-size: .26rem;
+    color: #ff3939;
+    text-transform:Uppercase;
+    font-style: italic;
+}
+.tangshang_ye_bottom_ye p{
+    width: 100%;
+    font-size: .24rem;
+    color: #8a8a8a;
+    text-indent:.2rem;
+    line-height: .35rem;
+    /*letter-spacing:.03rem;*/
+    padding-top: .13rem;
+    /*padding-bottom: .2rem;*/
+}
+

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+         <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+         <meta content="no" name="apple-mobile-web-app-capable" />
+         <meta content="telephone=no" name="format-detection" />
+        <title>队友-联系人</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="js/jquery.js"></script>
+    </head>
+    <style>
+        .lianxiren{
+            color: #FFFFFF;
+            text-align: center;
+        }
+        .geRen_bottom_nei{
+            width: 100%;
+            height: 13.35rem;
+            padding-top: .9rem;
+        }
+        .geRen_bottom_nei .name_nav{
+            width: 7.05rem;
+            height: auto;
+            margin: 0 auto;
+            /*background: url(../img/个人1_03.png) no-repeat center bottom;
+            background-size: 7.05rem .03rem;*/
+            padding-top: .2rem;
+            overflow: hidden;
+        }
+        .geRen_bottom_nei .name_nav_first{
+            padding-top: .2rem;
+        }
+        .name_nav .nav_biaoTi{
+            width: 7.05rem;
+            height: auto;
+            margin: 0 auto;
+            background: url(img/个人1_03.png) no-repeat center bottom;
+            background-size: 7.05rem .06rem;
+            padding-top: .18rem;
+            padding-bottom: .18rem;
+            padding-left: .2rem;
+            color: #979797;
+            font-size: .26rem;
+            overflow: hidden;
+        }
+        .nav_biaoTi .biaTi_left{
+            float: left;
+            padding-left: .39rem;
+ 
+        }
+    
+        .nav_biaoTi .biaTi_c{
+            background: url(img/0_44.png) no-repeat left center;
+            background-size: .34rem .34rem;
+        }
+        .nav_biaoTi .biaTi_right{
+            width: .22rem;
+            height: .15rem;
+            float: right;
+            background: url(img/0_36.png) no-repeat left center;
+            background-size: .22rem .15rem;
+            margin-top: .1rem;
+            margin-right: .2rem;
+        }
+        .biaTi_left span{
+            font-size: .16rem;
+            color: #bababa;
+            font-family: San Francisco Display;
+        }
+        
+        .name_nav .nav_xuanXiang{
+            /*width: 6.05rem;*/
+            /*height: auto;*/
+            margin-left: .2rem;
+            /*padding-top: .18rem;*/
+            /*padding-bottom: .18rem;*/
+            padding-left: .2rem;
+            color: #979797;
+            font-size: .26rem;
+            overflow: hidden;
+        }
+        .name_nav .nav_height{
+            height: 0;
+            padding: 0;
+        }
+        .name_nav .xuanXiang_height{
+            height: auto;
+        }
+        .nav_xuanXiang .xuanXiang_a{
+            width: 6.05rem;
+            height: auto;
+            background: url(img/个人1_03.png) no-repeat center bottom;
+            background-size: 6.05rem .06rem;
+            padding-top: .18rem;
+            padding-bottom: .18rem;
+            padding-left: .2rem;
+            padding-right: .2rem;
+            color: #979797;
+            font-size: .22rem;
+        }
+        .xuanXiang_a input{
+            width: 3rem;
+            height: .4rem;
+            border: none;
+            outline: none;
+            /*line-height: .98rem;*/
+            color: #979797;
+            font-size: .22rem;
+            padding-left: .2rem;
+            background: #f7f7f7;
+           
+        }
+        .xuanXiang_a .lianjie_tianJia{
+            width: 100%;
+            height: 100%;
+            display: block;
+            color: #a6a6a6;
+            font-size: .22rem;
+        }
+        .lianjie_tianJia span{
+            line-height: .16rem;
+            font-size: .32rem;
+        }
+        .xuanXiang_a .huJiu{
+            width: .78rem;
+            height: .3rem;
+            border-radius: .3rem;
+            float: right;
+            border: 1px solid #14dc1d;
+            display: block;
+            text-align: center;
+            line-height: .28rem;
+            color: #14dc1d;
+            font-family: AdobeHeitiStd;
+            font-size: .18rem;
+        }
+        .xuanXiang_a .xuanXiang_help{
+            font-size: .16rem;
+            font-family: San Francisco Display;
+        }
+        .xuanXiang_a .chakan{
+            width: .78rem;
+            height: .3rem;
+            border-radius: .3rem;
+            float: right;
+            border: 1px solid #f82818;
+            display: block;
+            text-align: center;
+            line-height: .28rem;
+            color: #f82818;
+            font-family: AdobeHeitiStd;
+            font-size: .18rem;
+        }
+        .zheZhao{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            top: 0;
+            margin: auto;
+            background: rgba(0,0,0,0.7);
+        }
+        .zheZhao .zheZhao_xinXi{
+            width: 3rem;
+            height: 3rem;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            top: 0;
+            margin: auto;
+            background: #FFFFFF;
+        }
+        .zheZhao_GuiJi1{
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            background: rgba(0,0,0,0.7);
+            z-index: 100;
+            display: none;
+        }
+        .shanChu{
+            width: 6.8rem;
+            height:2.5rem;
+            position: absolute;
+            bottom: .5rem;
+            left: 0;
+            right: 0;
+            margin: auto;
+            background: #FFFFFF;
+            border-radius: 15px;
+            overflow: hidden;
+            text-align: center;
+            padding-top: .5rem;
+        }
+        .shanChu .shanChu_xuanxiang{
+            width: 100%;
+            height:.75rem;
+            margin: .5rem auto;
+            line-height: .75rem;
+            text-align: center;
+        }
+        .shanChu_xuanxiang .shanChu_left{
+            width: 3rem;
+            height:.75rem;
+            float: left;
+            margin-left: .3rem;
+            border: 1px solid #cbcbcb;
+            border-radius: 20px;
+            background: #f1f1f1;
+        }
+        .shanChu_xuanxiang .shanChu_right{
+            width: 3rem;
+            height:.75rem;
+            float: right;
+            margin-right: .3rem;
+            border: 1px solid #cbcbcb;
+            border-radius: 20px;
+            background: #f1f1f1;
+        }
+        .shanChu_right .shanChu_cr{
+            color: red;
+        }
+        .footer{
+            font-size: .24rem;
+        }
+        .lianxiren_a{
+            display: block;
+            width:100%;
+            height: 100%;
+        }
+        .lianxiren_img{
+            width: 100%;
+            height: .5rem;
+            background: url("img/首页1.png") no-repeat center;
+            background-size: .4rem .4rem;
+            margin-top: .1rem;
+        }
+        .lianxiren_cr{
+            color:red;
+        }
+        .lianxiren_img_cr{
+            background: url("img/首页11.png") no-repeat center;
+            background-size: .4rem .4rem;
+        }
+    </style>
+    <body>
+        <header class="header">
+            <div class="header_left">
+                <a href="weixing.html" class="hd_La hd_Lb"></a>
+            </div>
+            <div class="header_weixin">
+                                我的队友
+            </div>
+            <!--<div class="header_right_wenzi">
+                <a href="##" class="hd_La hd_Lb"></a>
+            </div>-->
+        </header>
+        <div class="geRen_bottom_nei">
+            <div class="name_nav">
+                <div class="nav_biaoTi">
+                    <div class="biaTi_left biaTi_c">
+                        紧急联系人
+                    </div>
+                    <div class="biaTi_right"></div>
+                </div>
+                <div class="nav_xuanXiang nav_height">
+                    <div class="xuanXiang_a">
+                        常见问题反馈 
+                    </div>
+                    <div class="xuanXiang_a">
+                        我的客服 
+                    </div>
+                    <div class="xuanXiang_a">
+                        服务条款 
+                    </div>
+                    <div class="xuanXiang_a">
+                        关于我们 
+                    </div>    
+                </div>
+            </div>
+            <div class="name_nav">
+                <div class="nav_biaoTi">
+                    <div class="biaTi_left biaTi_c">
+                        队友
+                    </div>
+                    <div class="biaTi_right"></div>
+                </div>
+                <div class="nav_xuanXiang nav_height">
+                    <div class="xuanXiang_a">
+                        常见问题反馈 
+                    </div>
+                    <div class="xuanXiang_a">
+                        我的客服 
+                    </div>
+                    <div class="xuanXiang_a">
+                        服务条款 
+                    </div>    
+                    <div class="xuanXiang_a">
+                        关于我们 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footerLeft">
+                <a href="weixin_duiyou_zhaoduiyou.html" class="lianxiren_a">
+                    <div class="lianxiren_img "></div>
+                    <div class="lianxiren ">
+                            找队友
+                    </div>
+                </a>
+            </div>
+            <div class="footerRight">
+                <a href="weixin_duiyou_xiaoxi.html" class="lianxiren_a">
+                    <div class="lianxiren_img"></div>
+                    <div class="lianxiren">
+                        消息
+                    </div>
+                </a>
+            </div>
+            <div class="footerMiddle">
+                <a href="weixin_duiyou_lianxiren.html" class="lianxiren_a">
+                    <div class="lianxiren_img lianxiren_img_cr"></div>
+                    <div class="lianxiren lianxiren_cr">
+                        联系人
+                    </div>
+                </a>
+            </div>
+        </footer>
+    </body>
+    <script src="js/geRenZhongXin.js"></script>
+    <script>
+//        $('.lianxiren_a').each(function () {
+//            $(this).click(function () {
+//                $('.lianxiren_img').removeClass('lianxiren_img_cr');
+//                $('.lianxiren_img').eq($(this).index()).addClass('lianxiren_img_cr');
+//                $('.lianxiren').removeClass('lianxiren_cr');
+//                $('.lianxiren').eq($(this).index()).addClass('lianxiren_cr');
+//            });
+//        })
+    </script>
+</html>

@@ -1,0 +1,131 @@
+.denglu_body{
+    width: 7.5rem;
+    height: 13.35rem;
+    padding: 1rem 0;
+    background: url(../img/登录_02.jpg) no-repeat center;
+    background-size: 7.5rem 13.35rem;
+}
+.denglu_body .logo{
+    width: 5.7rem;
+    height: .83rem;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 2.5rem;
+    background: url(../img/登录_03.png) no-repeat center;
+    background-size: 2.76rem .83rem;
+}
+.denglu_body .denglu_con{
+    width: 5.7rem;
+    height: 3.45rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.denglu_con .denglu_con_a{
+    width: 5.7rem;
+    height: .9rem;
+    overflow: hidden;
+}
+.denglu_con_a .zhanghao{
+    width: 5.7rem;
+    height: .9rem;
+    border: 0;
+    border-radius: 30px;
+    background: url(../img/登录_05_03.png) no-repeat center;
+    background-size: 5.7rem .9rem;
+    padding-left: 1rem;
+    border: .03rem solid #3d4c53;
+    font-size: .29rem;
+    color: #666869;
+    outline:none;
+}
+.denglu_con .denglu_con_b{
+    width: 5.7rem;
+    height: .8rem;
+    margin-top: .3rem;
+    margin-bottom: .3rem;
+}
+.denglu_con_b .denglu_con_b_left{
+    width: 2.4rem;
+    height: .8rem;
+    float: left;
+    background: url(../img/登录_05_06.png) center;
+    background-size: 2.4rem .8rem;
+    padding-left: .56rem;
+    color: #666869;
+    font-size: .29rem;
+    line-height: .8rem;
+}
+.denglu_con_b .denglu_con_b_right{
+    width: 3rem;
+    height: .8rem;
+    float: right;
+}
+.denglu_con_b_right .yanzheng{
+    width: 3rem;
+    height: .8rem;
+    float: right;
+    outline:none;
+    border-radius: 30px;
+    border: .03rem solid #3d4c53;
+    background: rgba(0,0,0,0.8);
+    padding-left: .5rem;
+    font-size: .29rem;
+    color: #666869;
+    outline:none;
+}
+.denglu_con .denglu_con_c{
+    width: 5.7rem;
+    height: .99rem;
+    border: 1px solid #ffffff;
+    background: #fd2918;
+    border-radius: 30px;
+    text-align: center;
+    line-height: .99rem;
+    overflow: hidden;
+}
+.denglu_con_c a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+    font-size: .37rem;
+}
+.zi{
+    width: 100%;
+    height: .5rem;
+    color: #FFFFFF;
+    font-size: .43rem;
+    font-family: BrandonText;
+    text-transform:uppercase;
+    text-align: center;
+    position: absolute;
+    bottom: 2.7rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.tiaoguo{
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    display: block;
+    width:1.2rem;
+    height: .5rem;
+    background: rgba(34,36,43,0.7);
+    border: 1px solid #4c4c4d;
+    text-align: center;
+    color: #c6c6c6;
+    border-radius: 60px;
+    line-height: .5rem;
+    font-size: .24rem;
+}
+
+
+
+

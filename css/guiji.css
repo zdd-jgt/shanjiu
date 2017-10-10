@@ -1,0 +1,269 @@
+.guiJi_body{
+    width: 100%;
+    height: 13.35rem;
+    background: #f7f7f7;
+    padding-top: .9rem;
+}
+.guiJi_body .ditu_jilu{
+    width: 6.92rem;
+    height: 1.6rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #d9d9d9;
+    margin: .22rem auto;
+    padding-left: 1.68rem;
+    background: url(../img/轨迹_03.jpg) no-repeat center left;
+    background-size: 1.5rem 1.6rem;
+    background-color: #FFFFFF;
+}
+.ditu_jilu .jilu_box{
+    width: 2rem;
+    height: 100%;
+    padding-top: .2rem;
+    float: left;
+}
+.ditu_jilu .jilu_box .jiLu_a{
+    font-size: .24rem;
+    color: #808080;
+}
+.ditu_jilu .jilu_box .jiLu_b{
+    margin-top: .1rem;
+    width: 1.1rem;
+    height: 1px;
+    background: url(../img/北斗盒子_09_03.jpg) no-repeat;
+    background-size: 1.1rem 1px;
+}
+.ditu_jilu .jilu_box .jiLu_c{
+    margin-top: .08rem;
+    padding-left: .25rem;
+    font-size: .20rem;
+    color: #808080;
+    background: url(../img/轨迹_10.jpg) no-repeat center left;
+    background-size: .19rem .18rem;
+}
+.ditu_jilu .jilu_box .jiLu_d{
+    margin-top: .13rem;
+    padding-left: .25rem;
+    font-size: .20rem;
+    color: #808080;
+    background: url(../img/轨迹_14.jpg) no-repeat center left;
+    background-size: .21rem .21rem;
+}
+/*---------------------------------*/
+.ditu_jilu .jiLu_chaKan{
+    width: .95rem;
+    height: .44rem;
+    text-align: center;
+    line-height: .44rem;
+    border: 1px solid #f7f7f7;
+    border-radius: 30px;
+    box-shadow: 0 0 5px #c6c5c5;
+    background: #f82818;
+    color: #FFFFFF;
+    font-size: .24rem;
+    overflow: hidden;
+    float: right;
+    margin-right: .3rem;
+    margin-top: .6rem;
+}
+.jiLu_chaKan a{
+    width: .95rem;
+    height: .44rem;
+    display: block;
+    color: #FFFFFF;
+    font-size: .24rem;
+}
+/*--------------------------------*/
+.zheZhao_GuiJi{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: rgba(0,0,0,0.7);
+    z-index: 100;
+    display: none;
+}
+.zheZhao_GuiJi .guiJi_XinXi{
+    width: 6.26rem;
+    height: 8.83rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #f5f6f0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.guiJi_XinXi .guiJi_X{
+    width: .74rem;
+    height: .74rem;
+    background-color: #31343A;
+    background: url(../img/轨迹3d_03.png) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+.guiJi_XinXi .guiJi_map{
+    width: 6.26rem;
+    height: 4.9rem;
+    background: url(../img/轨迹、3d_04_03.png) no-repeat center;
+    background-size: cover;
+    /*border-radius: 10px;*/
+}
+.guiJi_XinXi .guiJi_km{
+    font-size: .61rem;
+    color: #9a9a9a;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: .35rem;
+    padding-bottom: .55rem;
+}
+.guiJi_XinXi .guiJi_km span{
+    font-size: 1.01rem;
+    font-family: 'AlternateGothicNo2BT';
+    color: #9a9a9a;
+    text-align: center;
+}
+.guiJi_XinXi .guiJi_shijian{
+    width: 5.5rem;
+    padding-left: .6rem;
+    padding-right: .6rem;
+    padding-bottom: .15rem;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.guiJi_shijian .yongShi{
+    /*width: 50%;*/
+    height: .51rem;
+    font-size: .28rem;
+    color: #9a9a9a;
+    padding-left: .28rem;
+    padding-right: .11rem;
+    background: url(../img/轨迹、3d_03.png) no-repeat center left;
+    background-size: .21rem .21rem;
+    line-height: .51rem;
+    padding-bottom: .55rem;
+    /*margin: 0 auto;*/
+}
+.guiJi_shijian .yongShi_a{
+    /*width: 50%;*/
+    height: .51rem;
+    font-size: .28rem;
+    color: #9a9a9a;
+    padding-left: .28rem;
+    padding-right: .11rem;
+    background: url(../img/轨迹、3d_05.png) no-repeat center left;
+    background-size: .21rem .21rem;
+    line-height: .51rem;
+    padding-bottom: .55rem;
+    /*margin: 0 auto;*/
+}
+.guiJi_shijian .yongShi span{
+    float: right;
+    font-size: .28rem;
+    color: #9a9a9a;
+}
+/*--------------------------*/
+.zheZhao_GuiJi1{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: rgba(0,0,0,0.7);
+    z-index: 100;
+    display: none;
+}
+.shanChu{
+    width: 6.8rem;
+    height:2.5rem;
+    position: absolute;
+    bottom: .5rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #FFFFFF;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    padding-top: .5rem;
+}
+.shanChu .shanChu_xuanxiang{
+    width: 100%;
+    height:.75rem;
+    margin: .5rem auto;
+    line-height: .75rem;
+    text-align: center;
+}
+.shanChu_xuanxiang .shanChu_left{
+    width: 3rem;
+    height:.75rem;
+    float: left;
+    margin-left: .3rem;
+    border: 1px solid #cbcbcb;
+    border-radius: 20px;
+    background: #f1f1f1;
+}
+.shanChu_xuanxiang .shanChu_right{
+    width: 3rem;
+    height:.75rem;
+    float: right;
+    margin-right: .3rem;
+    border: 1px solid #cbcbcb;
+    border-radius: 20px;
+    background: #f1f1f1;
+}
+.shanChu_right .shanChu_cr{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

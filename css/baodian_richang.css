@@ -1,0 +1,23 @@
+.body_riChang{
+    width: 100%;
+    height: auto;
+    margin-top: 1.2rem;
+}
+.body_riChang .riChang_box{
+    width: 6.81rem;
+    height: auto;
+    margin: 0 auto;
+}
+.riChang_box .riChang_list{
+    width: 100%;
+    height: 2.6rem;
+    box-shadow: 0 0 5px #cdcdcd;
+    background: url(../img/宝典-日常_03.jpg) no-repeat center;
+    background-size: 6.81rem 2.6rem;
+    margin-top: .3rem;
+}
+.riChang_box .riChang_list a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
