@@ -18,9 +18,83 @@
     .duiyou_xiaoXi{
         width: 100%;
         height: 13.35rem;
-        padding: .9rem .24rem 1rem .24rem;
+        padding: 1rem 0 0 0;
     }
-
+    .duiyou_xiaoXi .duiyou_xiaoxi_top{
+        width: 100%;
+        height: 53%;
+        padding: 0 .24rem;
+    }
+    .duiyou_xiaoxi_top div:nth-of-type(odd){
+        width:100%;
+        height: .8rem;
+    }
+    .duiyou_xiaoxi_top div:nth-of-type(odd) p{
+        width:auto;
+        float: left;
+        background: #c9c9c9;
+        padding: .24rem;
+        border-radius: 20px;
+    }
+    .duiyou_xiaoxi_top div:nth-of-type(even) {
+        width:100%;
+        height: .8rem;
+    }
+    .duiyou_xiaoxi_top div:nth-of-type(even) p{
+        width:auto;
+        float: right;
+        background: green;
+        padding: .24rem;
+        border-radius: 20px;
+    }
+    .duiyou_xiaoXi .duiyou_xiaoxi_bottom{
+        width: 100%;
+        height: 47%;
+        overflow: hidden;
+    }
+    .duiyou_xiaoxi_bottom .wenzi_shuru{
+        width: 100%;
+        height: .7rem;
+        padding: 0 .14rem;
+        margin-bottom: .1rem;
+    }
+    .wenzi_shuru .shuru{
+        width: 5.83rem;
+        height: .7rem;
+        float: left;
+    }
+    .wenzi_shuru .shuru input{
+        width: 5.83rem;
+        height: .7rem;
+        outline: none;
+        border-radius: 5px;
+        font-size: .38rem;
+        padding: 0 0 0 .1rem;
+        border: 0;
+        border: 1px solid #c9c9c9;
+    }
+    .wenzi_shuru .fasong{
+        width: 1.3rem;
+        height: .7rem;
+        float: right;
+    }
+    .wenzi_shuru .fasong a{
+        width: 1.3rem;
+        height: .7rem;
+        display: block;
+        color: #FFFFFF;
+        border-radius: 6px;
+        text-align: center;
+        line-height: .7rem;
+        background: #c9c9c9;
+    }
+    .jianpan{
+        width:100%;
+        overflow: hidden;
+    }
+    .jianpan img{
+        width:100%;
+    }
     .footer{
         font-size: .24rem;
     }
@@ -38,6 +112,7 @@
         background: url("img/首页11.png") no-repeat center;
         background-size: .4rem .4rem;
     }
+
 </style>
 <body>
 <header class="header">
@@ -47,12 +122,35 @@
     <div class="header_weixin">
         名字
     </div>
-    <!--<div class="header_right_wenzi">
-        <a href="##" class="hd_La hd_Lb"></a>
-    </div>-->
 </header>
 <div class="duiyou_xiaoXi">
-
+    <div class="duiyou_xiaoxi_top">
+        <div>
+            <p>要不别去了</p>
+        </div>
+        <div>
+            <p>要不别去了</p>
+        </div>
+        <div>
+            <p>要不别去了</p>
+        </div>
+        <div>
+            <p>要不别去了</p>
+        </div>
+    </div>
+    <div class="duiyou_xiaoxi_bottom">
+        <div class="wenzi_shuru">
+            <div class="shuru">
+                <input type="text">
+            </div>
+            <div class="fasong">
+                <a href="">发送</a>
+            </div>
+        </div>
+        <div class="jianpan">
+            <img src="img/timg.jpg" alt="">
+        </div>
+    </div>
 </div>
 
 </body>
