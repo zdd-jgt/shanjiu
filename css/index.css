@@ -24,18 +24,22 @@
     height: .8rem;
 }
 .list .list_tu_1{
-    background: url(../img/首页_15.jpg) no-repeat center;
+    background: url(../img/shouye_yiyuan.png) no-repeat center;
     background-size: .52rem .52rem;
 }
 .list .list_tu_2{
-    background: url(../img/index_18.jpg) no-repeat center;
+    background: url(../img/shouye_jincha.png) no-repeat center;
     background-size: .52rem .52rem;
 }
 .list .list_tu_3{
-    background: url(../img/首页_20.jpg) no-repeat center;
+    background: url(../img/shouye_jijiuyuan.png) no-repeat center;
     background-size: .52rem .52rem;
 }
 .list .list_tu_4{
-    background: url(../img/首页_26.jpg) no-repeat center;
+    background: url(../img/shouye_jiuyuan.png) no-repeat center;
+    background-size: .52rem .52rem;
+}
+.list .list_tu_5{
+    background: url(../img/shouye_xiaofang.png) no-repeat center;
     background-size: .52rem .52rem;
 }

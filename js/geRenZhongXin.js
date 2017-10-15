@@ -8,7 +8,10 @@ function xiaLa(i){
         if($(".nav_xuanXiang").eq(i).attr("class")=="nav_xuanXiang xuanXiang_height"){
             $(".nav_xuanXiang").eq(i).removeClass("xuanXiang_height");
             $(".nav_xuanXiang").eq(i).addClass("nav_height");
+            $(".biaTi_right").eq(i).removeClass("biaTi_right1");
         }else if($(".nav_xuanXiang").eq(i).attr("class")=="nav_xuanXiang nav_height"){
+            $(".biaTi_right").eq(i).addClass("biaTi_right1");
+            
             $(".nav_xuanXiang").eq(i).removeClass("nav_height");
             $(".nav_xuanXiang").eq(i).addClass("xuanXiang_height");
         };
