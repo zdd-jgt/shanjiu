@@ -4,6 +4,7 @@
     background: #f5f5f5;
     overflow: hidden;
     padding-top: .9rem;
+    overflow: auto;
 }
 /*上半部分*/
 .app_body .body_top{

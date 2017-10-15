@@ -19,6 +19,10 @@
             $('.footerMiddle_btn_yemian').css('display','none');
             $(".footerMiddle_btn_yemian_b").removeClass("pie");
         });
+        $('.lijiqiujiu').on("click",function(){
+            $('.footerMiddle_btn_yemian').css('display','none');
+            $(".footerMiddle_btn_yemian_b").removeClass("pie");
+        });
     
     
     
