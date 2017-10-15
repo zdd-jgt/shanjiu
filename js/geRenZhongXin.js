@@ -34,26 +34,29 @@ $(".tuiChuDengLu").on("click",function(){
 //  $(".nav_xuanXiang").eq(0).css("height","0");
 });
 //
-$(".lianjie_tianJia").on("click",function(){
+
+$(".lianjie_tianJia").eq(0).on("click",function(){
     var name_value=$("#name").val();
     var dianHua_value=$("#dianHua").val();
-    var html;
-    console.log(name_value="输入姓名"||" ");
-    if(dianHua_value!=""&&"联系电话",name_value!=""&&"输入姓名"){
-        html='<div class="xuanXiang_a">'+name_value+'：<span class="lianjie">'+dianHua_value+'</span><a class="huJiu" href="">呼救</a></div>';
-        $(".xuanXiang_tianJia").before(html);
-       
-    }else if(dianHua_value==""&&"联系电话",name_value!=""&&"输入姓名"){
-        console.log(1);
-        console.log(name_value,dianHua_value);
+    console.log(name_value,dianHua_value);
+    if(dianHua_value!=""){
+        if(name_value!=""){
+            var html='<div class="xuanXiang_a">'+name_value+'：<span class="lianjie">'+dianHua_value+'</span><a class="huJiu" href="">呼救</a></div>';
+            $(".xuanXiang_tianJia").eq(0).before(html);
+        }
     }
-//  if(name_value="输入姓名"||dianHua_value="联系电话"){
-//      console.log(0);
-//  }else{
-//      var html='<div class="xuanXiang_a">'+name_value+'：<span class="lianjie">'++dianHua_value'</span><a class="huJiu" href="">呼救</a></div>';
-//      $(".xuanXiang_tianJia").before(html);
-//  }
-})
+    
+});
+$(".lianjie_tianJia").eq(1).on("click",function(){
+    var name_value=$("#name1").val();
+    var dianHua_value=$("#dianHua1").val();
+    if(dianHua_value!==""){
+        if(name_value!==""){
+           var html='<div class="xuanXiang_a">'+name_value+'：<span class="lianjie">'+dianHua_value+'</span><a class="huJiu" href="">呼救</a></div>';
+            $(".xuanXiang_tianJia").eq(1).before(html);
+        }
+    }
+});
 $(".xuanXiang_a1").each(function(){
    
     $(this).on('touchstart', function(e){  
